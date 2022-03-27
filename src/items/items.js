@@ -146,7 +146,7 @@ const items = [
     id: uniqid(),
   },
   {
-    title: "Expensive Pain” Hoodie",
+    title: '"Expensive Pain" Hoodie',
     category: "merch",
     onSale: false,
     imgURL: expensivePainHoodie,
