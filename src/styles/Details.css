@@ -18,6 +18,12 @@
   margin-bottom: 6px;
 }
 
+.qty-in-cart {
+  font-family: "Thasadith", sans-serif;
+  height: 12px;
+  color: red;
+}
+
 .details-title {
   font-size: 32px;
 }

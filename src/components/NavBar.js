@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import "../styles/NavBar.css";
 import cart from "../images/shopping-cart.png";
 
-function NavBar() {
+function NavBar(props) {
+  const { totalQtyInCart } = props;
   return (
     <nav className="nav-bar">
       <Link to="/" className="logo">
@@ -22,9 +23,13 @@ function NavBar() {
           SALE
         </Link>
       </div>
-      <Link to="/cart" className="cart">
+      <Link to="/cart" className="cart-logo">
         <img src={cart} alt="cart" />
-        <div className="cart-badge">1</div>
+        {totalQtyInCart ? (
+          <div className="cart-badge visible">{totalQtyInCart}</div>
+        ) : (
+          <div className="cart-badge hidden"></div>
+        )}
       </Link>
     </nav>
   );

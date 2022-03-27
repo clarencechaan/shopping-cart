@@ -5,7 +5,6 @@ function MusicShop(props) {
   const musicItems = props.shopItems.filter(
     (item) => item.category === "music"
   );
-  console.log(musicItems);
   return (
     <div className="music-shop">
       <h2>Music</h2>

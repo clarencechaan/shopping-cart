@@ -10,6 +10,7 @@
   cursor: pointer;
   transition: 0.3s;
 }
+
 .shop-item-img:hover {
   transform: scale(1.03);
 }
