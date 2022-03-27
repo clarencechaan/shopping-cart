@@ -68,23 +68,22 @@ const App = () => {
     return total;
   }
 
-  // function addQty(id, qty) {
-  //   setCart((prevCart) => {
-  //     const prevCartItem = prevCart.find((c) => c.id === id);
-  //     const newCartItem = {
-  //       ...prevCartItem,
-  //       quantity: prevCartItem.quantity + 1,
-  //     };
-  //     const index = prevCart.findIndex((c) => c.id === id);
-  //     return [
-  //       ...prevCart.slice(0, index),
-  //       newCartItem,
-  //       ...prevCart.slice(index + 1),
-  //     ];
-  //   });
-  // }
+  function handleRemoveFromCart(id) {
+    if (isItemInCart({ id: id })) {
+      setCart((prevCart) => {
+        const index = cart.findIndex((c) => c.id === id);
+        return [...prevCart.slice(0, index), ...prevCart.slice(index + 1)];
+      });
+    }
+  }
 
-  console.log(cart);
+  function getTotalPrice() {
+    let total = 0;
+    for (const c of cart) {
+      total += c.quantity * c.price;
+    }
+    return total.toFixed(2);
+  }
 
   return (
     <BrowserRouter>
@@ -107,6 +106,8 @@ const App = () => {
               cartItems={cart}
               getTotalQtyInCart={getTotalQtyInCart}
               handleAddToCart={handleAddToCart}
+              handleRemoveFromCart={handleRemoveFromCart}
+              getTotalPrice={getTotalPrice}
             />
           }
         />

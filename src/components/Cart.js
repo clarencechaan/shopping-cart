@@ -1,5 +1,6 @@
 import CartItem from "./CartItem";
 import "../styles/Cart.css";
+import cartLogo from "../images/shopping-cart-white.png";
 
 function Cart(props) {
   return (
@@ -10,9 +11,14 @@ function Cart(props) {
           <CartItem
             item={item}
             handleAddToCart={props.handleAddToCart}
+            handleRemoveFromCart={props.handleRemoveFromCart}
             key={item.id}
           />
         ))}
+      </div>
+      <div className="total">
+        <img src={cartLogo} alt="" className="total-cart-logo" />$
+        {props.getTotalPrice()}
       </div>
     </div>
   );

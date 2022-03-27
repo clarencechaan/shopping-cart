@@ -26,7 +26,7 @@ body {
 .cart {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   width: 1192px;
   padding: 0 24px 24px 24px;
 }

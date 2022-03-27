@@ -7,6 +7,11 @@
   height: 200px;
   object-fit: contain;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.cart-item-img:hover {
+  transform: scale(1.03);
 }
 
 .cart-items-container {
@@ -25,6 +30,7 @@
 
 .quantity-control {
   display: flex;
+  align-items: center;
   margin-top: 10px;
 }
 
@@ -40,9 +46,43 @@
 
 .quantity-control > button {
   width: 36px;
+  height: 36px;
   font-size: 20px;
   background-color: black;
   color: white;
   border: none;
   cursor: pointer;
+}
+
+.remove {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+.total {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 6px;
+  background-color: rgb(199, 75, 75);
+  color: white;
+  font-size: 20px;
+  padding: 14px 30px;
+  border-radius: 40px;
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.total:hover {
+  background-color: rgb(138, 59, 59);
+}
+
+.total-cart-logo {
+  width: 28px;
 }

@@ -10,6 +10,8 @@ function Details(props) {
   const [quantity, setQuantity] = useState(1);
   const [qtyInCart, setQtyInCart] = useState(props.getQtyInCart(item.id));
 
+  const [active, setActive] = useState(true);
+
   return (
     <div className="details">
       <img src={item.imgURL} alt="" className="details-img" />
@@ -26,6 +28,7 @@ function Details(props) {
           className="quantity"
           onChange={(e) => {
             setQuantity(e.value);
+            setActive(true);
           }}
           defaultValue={{ value: 1, label: 1 }}
           options={[
@@ -40,15 +43,22 @@ function Details(props) {
             { value: 9, label: 9 },
           ]}
         />
-        <button
-          className="add-to-cart"
-          onClick={() => {
-            props.handleAddToCart(item, quantity);
-            setQtyInCart((prevQtyInCart) => prevQtyInCart + quantity);
-          }}
-        >
-          ADD TO CART
-        </button>
+        {active ? (
+          <button
+            className="add-to-cart active"
+            onClick={() => {
+              props.handleAddToCart(item, quantity);
+              setQtyInCart((prevQtyInCart) => prevQtyInCart + quantity);
+              setActive(false);
+            }}
+          >
+            ADD TO CART
+          </button>
+        ) : (
+          <button className="add-to-cart inactive" disabled>
+            ITEM ADDED
+          </button>
+        )}
       </div>
     </div>
   );

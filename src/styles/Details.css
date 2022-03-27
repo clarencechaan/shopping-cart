@@ -41,18 +41,27 @@
   width: 120px;
   font-family: "Pavanam", sans-serif;
   font-size: 14px;
-  background-color: transparent;
-  color: red;
-  border: 1px solid red;
   height: 36px;
   border-radius: 4px;
+  background-color: transparent;
+}
+
+.add-to-cart.active {
+  color: red;
+  border: 1px solid red;
   cursor: pointer;
 }
 
-.add-to-cart:hover {
+.add-to-cart.active:hover {
   background-color: rgb(245, 245, 245);
 }
 
-.add-to-cart:active {
+.add-to-cart.active:hover {
   background-color: rgb(255, 214, 214);
+}
+
+.add-to-cart.inactive {
+  color: black;
+  border: 1px solid black;
+  cursor: initial;
 }
