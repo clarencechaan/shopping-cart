@@ -1,0 +1,52 @@
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+
+.details-img {
+  width: 500px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.details-info {
+  width: 500px;
+}
+
+.details-info > * {
+  margin-bottom: 6px;
+}
+
+.details-title {
+  font-size: 32px;
+}
+
+.details-price {
+  font-size: 20px;
+  color: gray;
+}
+
+.quantity {
+  width: 120px;
+}
+
+.add-to-cart {
+  width: 120px;
+  font-family: "Pavanam", sans-serif;
+  font-size: 14px;
+  background-color: transparent;
+  color: red;
+  border: 1px solid red;
+  height: 36px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.add-to-cart:active {
+  background-color: rgb(255, 214, 214);
+}

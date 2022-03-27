@@ -1,0 +1,61 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.shop-music,
+.shop-merch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-music-background,
+.shop-merch-background {
+  background-color: gray;
+  width: 400px;
+  height: 600px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.shop-music-background:hover,
+.shop-merch-background:hover {
+  transform: scale(1.04);
+}
+
+.white-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.white-overlay:hover {
+  opacity: 0;
+}
+
+.shop-button {
+  background-color: rgb(199, 75, 75);
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  font-size: 18px;
+  font-family: "Pavanam", sans-serif;
+  border-radius: 4px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.shop-button:hover {
+  background-color: rgb(138, 59, 59);
+}
+
+.shop-button-link {
+  position: absolute;
+  z-index: 2;
+}
