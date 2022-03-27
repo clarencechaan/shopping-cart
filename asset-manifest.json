@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.7066cb43.css",
+    "main.js": "/shopping-cart/static/js/main.f250c54b.js",
+    "static/media/record.jpg": "/shopping-cart/static/media/record.976aa93d8c8494b84d94.jpg",
+    "static/media/merch.jpg": "/shopping-cart/static/media/merch.84f4c069fcee44ca5300.jpg",
+    "static/media/mbdtf.jpg": "/shopping-cart/static/media/mbdtf.3c14976b07836b8b606d.jpg",
+    "static/media/vlone-pants.webp": "/shopping-cart/static/media/vlone-pants.d5ec3770cc04c57e4030.webp",
+    "static/media/badass.jpg": "/shopping-cart/static/media/badass.bda1430ead1c97735817.jpg",
+    "static/media/motm.jpg": "/shopping-cart/static/media/motm.b516ff91104702bdfc1c.jpg",
+    "static/media/take-care.jpg": "/shopping-cart/static/media/take-care.091803869f7abe69a333.jpg",
+    "static/media/care.jpg": "/shopping-cart/static/media/care.025f7d58e08a29f725ab.jpg",
+    "static/media/gkmc.jpg": "/shopping-cart/static/media/gkmc.a98a7e2e103a4d1f8bd8.jpg",
+    "static/media/taboo.jpg": "/shopping-cart/static/media/taboo.6b647437533396e52088.jpg",
+    "static/media/pivot-gang-hat.webp": "/shopping-cart/static/media/pivot-gang-hat.8a7a7bb1f3c59da15664.webp",
+    "static/media/food-liquor.jpg": "/shopping-cart/static/media/food-liquor.e6f46467fcc32a7789c6.jpg",
+    "static/media/savage.jpg": "/shopping-cart/static/media/savage.1670397a598d2d7d0ede.jpg",
+    "static/media/tde-hoodie.webp": "/shopping-cart/static/media/tde-hoodie.bd160b7349e8d11bdb79.webp",
+    "static/media/dwmtm.jpg": "/shopping-cart/static/media/dwmtm.a75b3aabaa01675837ee.jpg",
+    "static/media/macadelic-tee.webp": "/shopping-cart/static/media/macadelic-tee.bf52c0225500d1820920.webp",
+    "static/media/ovo-hoodie.webp": "/shopping-cart/static/media/ovo-hoodie.438b64d3b54d7caf56e2.webp",
+    "static/media/swimming.jpg": "/shopping-cart/static/media/swimming.c690a0795bb556825800.jpg",
+    "static/media/expensive-pain-hoodie.webp": "/shopping-cart/static/media/expensive-pain-hoodie.d8f3669f3bfb71e8164d.webp",
+    "static/media/kanye-holy-spirit.jpeg": "/shopping-cart/static/media/kanye-holy-spirit.f3ff4c6200a7930b3f86.jpeg",
+    "static/media/pro-era-shorts.webp": "/shopping-cart/static/media/pro-era-shorts.3696750f98e790b95231.webp",
+    "static/media/6lack-tee.webp": "/shopping-cart/static/media/6lack-tee.7c5ec6b6f0a7af69640a.webp",
+    "static/media/channel-orange.jpg": "/shopping-cart/static/media/channel-orange.c4048460d8874cf0e10e.jpg",
+    "static/media/chance-hat.webp": "/shopping-cart/static/media/chance-hat.1c9cea86d6defcceb080.webp",
+    "static/media/issa-tee.jpeg": "/shopping-cart/static/media/issa-tee.bb618c6ea45f03ffe35b.jpeg",
+    "static/media/shopping-cart-white.png": "/shopping-cart/static/media/shopping-cart-white.c01310a46874258ee0a7.png",
+    "static/media/drogas-hoodie.webp": "/shopping-cart/static/media/drogas-hoodie.3f6e1afcdb805f2d6770.webp",
+    "static/media/shopping-cart.png": "/shopping-cart/static/media/shopping-cart.f671088409a58d82150d.png",
+    "static/media/trash.png": "/shopping-cart/static/media/trash.09cbdcb972d14caa9fff.png",
+    "index.html": "/shopping-cart/index.html",
+    "main.7066cb43.css.map": "/shopping-cart/static/css/main.7066cb43.css.map",
+    "main.f250c54b.js.map": "/shopping-cart/static/js/main.f250c54b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7066cb43.css",
+    "static/js/main.f250c54b.js"
+  ]
+}
