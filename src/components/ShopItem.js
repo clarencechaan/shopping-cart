@@ -4,7 +4,7 @@ function ShopItem(props) {
   const { title, imgURL, price } = props.item;
   return (
     <div className="shop-item">
-      <Link to="/details" state={props.item}>
+      <Link to="/shopping-cart/details" state={props.item}>
         <img src={imgURL} alt="" className="shop-item-img" />
       </Link>
       <div className="shop-title">{title}</div>

@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="home">
       <div className="shop-music">
-        <Link to="/music-shop" className="shop-button-link">
+        <Link to="/shopping-cart/music-shop" className="shop-button-link">
           <button className="shop-button">SHOP MUSIC</button>
         </Link>
         <div
@@ -22,7 +22,7 @@ function Home() {
         </div>
       </div>
       <div className="shop-merch">
-        <Link to="/merch-shop" className="shop-button-link">
+        <Link to="/shopping-cart/merch-shop" className="shop-button-link">
           <button className="shop-button">SHOP MERCH</button>
         </Link>
         <div

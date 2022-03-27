@@ -90,17 +90,21 @@ const App = () => {
       <NavBar totalQtyInCart={getTotalQtyInCart()} />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/shopping-cart" element={<Home />} />
         <Route
-          path="/music-shop"
+          path="/shopping-cart/music-shop"
           element={<MusicShop shopItems={shopItems} />}
         />
         <Route
-          path="/merch-shop"
+          path="/shopping-cart/merch-shop"
           element={<MerchShop shopItems={shopItems} />}
         />
-        <Route path="/sale-shop" element={<SaleShop shopItems={shopItems} />} />
         <Route
-          path="/cart"
+          path="/shopping-cart/sale-shop"
+          element={<SaleShop shopItems={shopItems} />}
+        />
+        <Route
+          path="/shopping-cart/cart"
           element={
             <Cart
               cartItems={cart}
@@ -112,7 +116,7 @@ const App = () => {
           }
         />
         <Route
-          path="/details"
+          path="/shopping-cart/details"
           element={
             <Details
               handleAddToCart={handleAddToCart}

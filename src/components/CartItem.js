@@ -7,7 +7,7 @@ function CartItem(props) {
   const handleRemoveFromCart = props.handleRemoveFromCart;
   return (
     <div className="cart-item">
-      <Link to="/details" state={props.item}>
+      <Link to="/shopping-cart/details" state={props.item}>
         <img src={imgURL} alt="" className="cart-item-img" />
       </Link>
       <div className="quantity-control">
