@@ -30,7 +30,9 @@ function NavBar(props) {
       <Link to="/shopping-cart/cart" className="cart-logo">
         <img src={cart} alt="cart" />
         {totalQtyInCart ? (
-          <div className="cart-badge visible">{totalQtyInCart}</div>
+          <div className="cart-badge visible" data-testid="cart-badge">
+            {totalQtyInCart}
+          </div>
         ) : (
           <div className="cart-badge hidden"></div>
         )}

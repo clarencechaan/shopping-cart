@@ -5,7 +5,7 @@ function ShopItem(props) {
   return (
     <div className="shop-item">
       <Link to="/shopping-cart/details" state={props.item}>
-        <img src={imgURL} alt="" className="shop-item-img" />
+        <img src={imgURL} alt={title} className="shop-item-img" />
       </Link>
       <div className="shop-title">{title}</div>
       <div className="shop-price">${price}</div>

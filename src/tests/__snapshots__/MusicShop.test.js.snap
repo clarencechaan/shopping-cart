@@ -1,0 +1,514 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MusicShop component ShopItem link 1`] = `
+<div>
+  <nav
+    class="nav-bar"
+  >
+    <a
+      class="logo"
+      href="/shopping-cart"
+    >
+      auditty
+    </a>
+    <div>
+      <a
+        class="nav-link"
+        href="/shopping-cart"
+      >
+        HOME
+      </a>
+      <a
+        class="nav-link"
+        href="/shopping-cart/music-shop"
+      >
+        MUSIC
+      </a>
+      <a
+        class="nav-link"
+        href="/shopping-cart/merch-shop"
+      >
+        MERCH
+      </a>
+      <a
+        class="nav-link"
+        href="/shopping-cart/sale-shop"
+        style="color: red;"
+      >
+        SALE
+      </a>
+    </div>
+    <a
+      class="cart-logo"
+      href="/shopping-cart/cart"
+    >
+      <img
+        alt="cart"
+        src="shopping-cart.png"
+      />
+      <div
+        class="cart-badge hidden"
+      />
+    </a>
+  </nav>
+  <div
+    class="details"
+  >
+    <img
+      alt=""
+      class="details-img"
+      src="mbdtf.jpg"
+    />
+    <div
+      class="details-info"
+    >
+      <div
+        class="qty-in-cart"
+      />
+      <div
+        class="details-title"
+      >
+        My Beautiful Dark Twisted Fantasy by Kanye West
+      </div>
+      <div
+        class="details-price"
+      >
+        $
+        11.99
+      </div>
+      <div
+        class="quantity css-b62m3t-container"
+      >
+        <span
+          class="css-1f43avz-a11yText-A11yText"
+          id="react-select-2-live-region"
+        />
+        <span
+          aria-atomic="false"
+          aria-live="polite"
+          aria-relevant="additions text"
+          class="css-1f43avz-a11yText-A11yText"
+        />
+        <div
+          class=" css-1s2u09g-control"
+        >
+          <div
+            class=" css-319lph-ValueContainer"
+          >
+            <div
+              class=" css-qc6sy-singleValue"
+            >
+              1
+            </div>
+            <div
+              class=" css-6j8wv5-Input"
+              data-value=""
+            >
+              <input
+                aria-autocomplete="list"
+                aria-controls="react-select-2-listbox"
+                aria-expanded="false"
+                aria-haspopup="true"
+                aria-owns="react-select-2-listbox"
+                autocapitalize="none"
+                autocomplete="off"
+                autocorrect="off"
+                class=""
+                id="react-select-2-input"
+                role="combobox"
+                spellcheck="false"
+                style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                tabindex="0"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class=" css-1hb7zxy-IndicatorsContainer"
+          >
+            <span
+              class=" css-1okebmr-indicatorSeparator"
+            />
+            <div
+              aria-hidden="true"
+              class=" css-tlfecz-indicatorContainer"
+            >
+              <svg
+                aria-hidden="true"
+                class="css-tj5bde-Svg"
+                focusable="false"
+                height="20"
+                viewBox="0 0 20 20"
+                width="20"
+              >
+                <path
+                  d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="add-to-cart active"
+      >
+        ADD TO CART
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MusicShop component renders MusicShop 1`] = `
+<div>
+  <nav
+    class="nav-bar"
+  >
+    <a
+      class="logo"
+      href="/shopping-cart"
+    >
+      auditty
+    </a>
+    <div>
+      <a
+        class="nav-link"
+        href="/shopping-cart"
+      >
+        HOME
+      </a>
+      <a
+        class="nav-link"
+        href="/shopping-cart/music-shop"
+      >
+        MUSIC
+      </a>
+      <a
+        class="nav-link"
+        href="/shopping-cart/merch-shop"
+      >
+        MERCH
+      </a>
+      <a
+        class="nav-link"
+        href="/shopping-cart/sale-shop"
+        style="color: red;"
+      >
+        SALE
+      </a>
+    </div>
+    <a
+      class="cart-logo"
+      href="/shopping-cart/cart"
+    >
+      <img
+        alt="cart"
+        src="shopping-cart.png"
+      />
+      <div
+        class="cart-badge hidden"
+      />
+    </a>
+  </nav>
+  <div
+    class="music-shop"
+  >
+    <h2>
+      Music
+    </h2>
+    <div
+      class="items-container"
+    >
+      <div
+        class="shop-item"
+      >
+        <a
+          href="/shopping-cart/details"
+        >
+          <img
+            alt="My Beautiful Dark Twisted Fantasy by Kanye West"
+            class="shop-item-img"
+            src="mbdtf.jpg"
+          />
+        </a>
+        <div
+          class="shop-title"
+        >
+          My Beautiful Dark Twisted Fantasy by Kanye West
+        </div>
+        <div
+          class="shop-price"
+        >
+          $
+          11.99
+        </div>
+      </div>
+      <div
+        class="shop-item"
+      >
+        <a
+          href="/shopping-cart/details"
+        >
+          <img
+            alt="Good Kid, m.A.A.d City by Kendrick Lamar"
+            class="shop-item-img"
+            src="gkmc.jpg"
+          />
+        </a>
+        <div
+          class="shop-title"
+        >
+          Good Kid, m.A.A.d City by Kendrick Lamar
+        </div>
+        <div
+          class="shop-price"
+        >
+          $
+          11.99
+        </div>
+      </div>
+      <div
+        class="shop-item"
+      >
+        <a
+          href="/shopping-cart/details"
+        >
+          <img
+            alt="Take Care by Drake"
+            class="shop-item-img"
+            src="take-care.jpg"
+          />
+        </a>
+        <div
+          class="shop-title"
+        >
+          Take Care by Drake
+        </div>
+        <div
+          class="shop-price"
+        >
+          $
+          9.99
+        </div>
+      </div>
+      <div
+        class="shop-item"
+      >
+        <a
+          href="/shopping-cart/details"
+        >
+          <img
+            alt="TA13OO by Denzel Curry"
+            class="shop-item-img"
+            src="taboo.jpg"
+          />
+        </a>
+        <div
+          class="shop-title"
+        >
+          TA13OO by Denzel Curry
+        </div>
+        <div
+          class="shop-price"
+        >
+          $
+          11.99
+        </div>
+      </div>
+      <div
+        class="shop-item"
+      >
+        <a
+          href="/shopping-cart/details"
+        >
+          <img
+            alt="B4.DA.$$ by Joey Bada$$"
+            class="shop-item-img"
+            src="badass.jpg"
+          />
+        </a>
+        <div
+          class="shop-title"
+        >
+          B4.DA.$$ by Joey Bada$$
+        </div>
+        <div
+          class="shop-price"
+        >
+          $
+          11.99
+        </div>
+      </div>
+      <div
+        class="shop-item"
+      >
+        <a
+          href="/shopping-cart/details"
+        >
+          <img
+            alt="Channel Orange by Frank Ocean"
+            class="shop-item-img"
+            src="channel-orange.jpg"
+          />
+        </a>
+        <div
+          class="shop-title"
+        >
+          Channel Orange by Frank Ocean
+        </div>
+        <div
+          class="shop-price"
+        >
+          $
+          11.99
+        </div>
+      </div>
+      <div
+        class="shop-item"
+      >
+        <a
+          href="/shopping-cart/details"
+        >
+          <img
+            alt="Care for Me by Saba"
+            class="shop-item-img"
+            src="care.jpg"
+          />
+        </a>
+        <div
+          class="shop-title"
+        >
+          Care for Me by Saba
+        </div>
+        <div
+          class="shop-price"
+        >
+          $
+          9.99
+        </div>
+      </div>
+      <div
+        class="shop-item"
+      >
+        <a
+          href="/shopping-cart/details"
+        >
+          <img
+            alt="Food & Liquor by Lupe Fiasco"
+            class="shop-item-img"
+            src="food-liquor.jpg"
+          />
+        </a>
+        <div
+          class="shop-title"
+        >
+          Food & Liquor by Lupe Fiasco
+        </div>
+        <div
+          class="shop-price"
+        >
+          $
+          9.99
+        </div>
+      </div>
+      <div
+        class="shop-item"
+      >
+        <a
+          href="/shopping-cart/details"
+        >
+          <img
+            alt="Man on the Moon: The End of Day by Kid Cudi"
+            class="shop-item-img"
+            src="motm.jpg"
+          />
+        </a>
+        <div
+          class="shop-title"
+        >
+          Man on the Moon: The End of Day by Kid Cudi
+        </div>
+        <div
+          class="shop-price"
+        >
+          $
+          11.99
+        </div>
+      </div>
+      <div
+        class="shop-item"
+      >
+        <a
+          href="/shopping-cart/details"
+        >
+          <img
+            alt="Dreams Worth More Than Money by Meek Mill"
+            class="shop-item-img"
+            src="dwmtm.jpg"
+          />
+        </a>
+        <div
+          class="shop-title"
+        >
+          Dreams Worth More Than Money by Meek Mill
+        </div>
+        <div
+          class="shop-price"
+        >
+          $
+          11.99
+        </div>
+      </div>
+      <div
+        class="shop-item"
+      >
+        <a
+          href="/shopping-cart/details"
+        >
+          <img
+            alt="Savage Mode by 21 Savage"
+            class="shop-item-img"
+            src="savage.jpg"
+          />
+        </a>
+        <div
+          class="shop-title"
+        >
+          Savage Mode by 21 Savage
+        </div>
+        <div
+          class="shop-price"
+        >
+          $
+          11.99
+        </div>
+      </div>
+      <div
+        class="shop-item"
+      >
+        <a
+          href="/shopping-cart/details"
+        >
+          <img
+            alt="Swimming by Mac Miller"
+            class="shop-item-img"
+            src="swimming.jpg"
+          />
+        </a>
+        <div
+          class="shop-title"
+        >
+          Swimming by Mac Miller
+        </div>
+        <div
+          class="shop-price"
+        >
+          $
+          11.99
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders App 1`] = `
+<div>
+  <nav
+    class="nav-bar"
+  >
+    <a
+      class="logo"
+      href="/shopping-cart"
+    >
+      auditty
+    </a>
+    <div>
+      <a
+        class="nav-link"
+        href="/shopping-cart"
+      >
+        HOME
+      </a>
+      <a
+        class="nav-link"
+        href="/shopping-cart/music-shop"
+      >
+        MUSIC
+      </a>
+      <a
+        class="nav-link"
+        href="/shopping-cart/merch-shop"
+      >
+        MERCH
+      </a>
+      <a
+        class="nav-link"
+        href="/shopping-cart/sale-shop"
+        style="color: red;"
+      >
+        SALE
+      </a>
+    </div>
+    <a
+      class="cart-logo"
+      href="/shopping-cart/cart"
+    >
+      <img
+        alt="cart"
+        src="shopping-cart.png"
+      />
+      <div
+        class="cart-badge hidden"
+      />
+    </a>
+  </nav>
+  <div
+    class="home"
+  >
+    <div
+      class="shop-music"
+    >
+      <a
+        class="shop-button-link"
+        href="/shopping-cart/music-shop"
+      >
+        <button
+          class="shop-button"
+        >
+          SHOP MUSIC
+        </button>
+      </a>
+      <div
+        class="shop-music-background"
+        style="background-image: url(record.jpg); background-size: cover; background-position: center;"
+      >
+        <div
+          class="white-overlay"
+        />
+      </div>
+    </div>
+    <div
+      class="shop-merch"
+    >
+      <a
+        class="shop-button-link"
+        href="/shopping-cart/merch-shop"
+      >
+        <button
+          class="shop-button"
+        >
+          SHOP MERCH
+        </button>
+      </a>
+      <div
+        class="shop-merch-background"
+        style="background-image: url(merch.jpg); background-size: cover; background-position: center;"
+      >
+        <div
+          class="white-overlay"
+        />
+      </div>
+    </div>
+     
+  </div>
+</div>
+`;

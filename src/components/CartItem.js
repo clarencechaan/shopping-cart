@@ -14,7 +14,9 @@ function CartItem(props) {
         <button type="button" onClick={() => handleAddToCart(props.item, -1)}>
           -
         </button>
-        <div className="quantity-label">{quantity}</div>
+        <div className="quantity-label" data-testid="quantity-label">
+          {quantity}
+        </div>
         <button type="button" onClick={() => handleAddToCart(props.item, 1)}>
           +
         </button>
